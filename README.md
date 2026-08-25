@@ -13,7 +13,7 @@
 >
 > 5. Now you can open up the file explorer using the command `explorer` on Windows and `open .` on a Mac *(don't forget the `.` after open)*.
 > 6. Now navigate to the user folder.
-> 7. Now you must navigate to the config folder and add proxies into the *proxies.txt* file, edit the Discord webhook URL inside of *webhooks.txt*, add your sites in *sites.txt* (if you want to filter the results, please filter on the website itself and add the filtered link) (no commas between websites, just enter and add), and finally edit your delay in *config.json* (1s=1000, 30s-30000 by default). You can edit this with any text editor.
+> 7. Now you must navigate to the config folder and add proxies into the *proxies.txt* file, add your Discord webhook URL(s) inside of *webhooks.txt* (the file now ships with comments and no active webhook URL), add your sites in *sites.txt* (if you want to filter the results, please filter on the website itself and add the filtered link) (no commas between websites, just enter and add), and finally edit your delay in *config.json* (1s=1000, 30s-30000 by default). You can edit this with any text editor.
 > 8. Now that everything is set up go back to your command prompt/terminal and type this:
 >> `npm install`
 >
