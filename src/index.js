@@ -14,7 +14,7 @@ fs.readFileSync(__dirname + '/../config/sites.txt', 'utf-8')
 fs.readFileSync(__dirname + '/../config/webhooks.txt', 'utf-8')
     .split(/\r?\n/).forEach(line => {
         line = line.replace(/\s/g, '');
-        if (line != '') webhooks.push(line);
+        if (line != '' && !line.startsWith('#')) webhooks.push(line);
     });
 
 sites.forEach(site => {
